@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="post-wrapper" id="post-block"> </div>
+
+    <div class="overlay" id="overlay">
+        <div class="content" id="content"></div>
+        <div class="close" id="close">
+            <i class="fa-solid fa-x"></i>
+        </div>
+    </div>
+
+    <div class="add-post" id="add">
+         <i class="fa-plus"></i> 
+    </div>
+
+    <div class="overlay-add" id="postoveraly">
+        <form action="" class="form" id="form">
+            <div>
+                <label for="title"> TITLE</label>
+                <input type="text" id="title">
+            </div>
+
+            <div>
+                <label for="descr"> DESCRIPTION</label>
+                <input type="text" id="descr">
+            </div>
+
+            <button>პოსტის დამატება</button>
+        </form>
+    </div>
+    
+
+    <div id="savedata"></div>
+   
+ 
+    
+    <script src="script.js"></script>
+</body>
+</html>
